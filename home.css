@@ -1,0 +1,58 @@
+html { 
+	
+    background: url(back.jpg) no-repeat center center fixed;          /*  for scaling background image  */
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   font-family: 'helvetica neue';
+ }
+
+ .nav-item :hover{
+     background-color: #ffcc00;
+     float: left !important;
+     padding: 10px 20px 10px 35px !important;
+ }
+ #arun,#bang{
+   cursor: pointer;
+ }
+ .box{
+	 background-color: #ffcc00;
+ }
+.container{
+	width:40%;
+	padding:23px;
+	margin: 12% 28%;
+	position: absolute;
+	border: 2px solid black;
+    background-color: rgb(89, 150, 19);
+    animation-name: arun;
+    animation-duration: 3s;
+    opacity: 80%;
+}
+@keyframes arun{
+    0% {
+        opacity: 5%;
+      }
+    
+      25% {
+          opacity: 10%;
+      }
+    
+      50% {
+    opacity: 30%;
+      } 
+      75%{
+          opacity:50%;
+      }   
+    
+      100% {
+        opacity: 60%;
+      }
+    }
+.submitbtn{
+  display: flex;
+  margin: 14px;
+  margin-left: 90%;
+  box-shadow: 4px 2px black;
+}

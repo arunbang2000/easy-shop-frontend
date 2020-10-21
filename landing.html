@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="landing.css">
+  <title>Home Page</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+  <nav class="nav-item" style="background-color: #003d66;" id="navbar">
+    <img src="logo.jpg" class="logo" height="50px" width="50px" style="border-radius: 50%;">
+    <a class="navbar-brand" href="#"
+      style="color: yellow; margin-left: 1.8%; font-family: sans-serif; font-size: 30px ">EASY SHOP</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html"
+            style="color: yellow; width: 100%; margin-left: 10px; margin-right: 10px;">LOGIN</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="signup.html"
+            style="color: yellow; width: 100%; margin-left: 10px; margin-right: 10px;">NEW USER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"
+            style="color: yellow; width: 100%; margin-left: 10px; margin-right: 10px;">CONTACT US</a>
+        </li>
+      </ul>
+  </nav>
+  <div class="box" style="height: 5px" style="width: 100%"></div>
+
+  <div class="container">
+    <h3><b>WELCOME TO THE EASY SHOP</b></h3>
+    <div id="fruits" class="item">
+      <h5>AIM AND SCOPE OF WEBSITE</h5>
+      <p id="fruitspara" class="para">
+        The world we see nowadays is becoming more digitalized. In this digitalized world e-commerce is taking the
+        ascendancy by making products available within the reach of customers where the customer doesn't have to go out
+        of their house for shopping. As now a day's people are relying on online products so the importance of a review
+        is going higher. For selecting a product, a customer needs to go through thousands of reviews to understand a
+        product. But in this prospering day of machine learning, going through thousands of reviews would be much easier
+        if a model is used to polarize those reviews and learn from it. We will use Sentimental Analysis method on a
+        large scale dataset to polarize it and get the rankings of products by filters for easy shopping experience to
+        user.
+      </p>
+    </div>
+    <div id="computer" class="item">
+      <h5>ABSTRACT OF THE WEBSITE</h5>
+      <p id="computerpara" class="para">
+        The lack of buying product via online are the consumer cannot touch, try, or even see it directly. Then how does
+        the consumer believe the product they like, is the correct product to be bought. The main key is product review
+        from the consumer who have bought and try the product. The more number of product review on certain product or
+        the popular product caused difficulties for the consumer to decide which product they should choose. For that we
+        require a solution, which is the we will apply sentiment analysis to classify every product review into positive
+        orientation, negative or neutral and also produce summary of product review based on product feature to help
+        reading process, product review and decision making.
+      </p>
+    </div>
+    <div id="stationary" class="item">
+      <h5>OBJECTIVES OF THE WEBSITE</h5>
+      <p id="stationarypara" class="para">
+        "To provide easy and smooth user shopping experience.
+        To develop a platform where customers can easily navigate and browse through our core idea.
+        To apply machine learning algorithms to work with databases.
+        To provide an facility to rank desired products based on reviews and filters.
+        To use sentimental analysis to classify the reviews.
+        To establish relationship detween ecommerce sites and our interface.
+        To devlop a full fledged software to work on compitable environments".
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <script>
+        var myVar;
+
+        function myFunction() {
+          myVar = setTimeout(showPage, 2000);
+        }
+
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+      </script>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
